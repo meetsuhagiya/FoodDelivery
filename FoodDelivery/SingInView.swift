@@ -2,20 +2,14 @@
 //  SingInView.swift
 //  FoodDelivery
 //
-//  Created by student on 08/01/25.
+//  Created by student on 09/01/25.
 //
 
 import SwiftUI
-import CountryPicker
 
 struct SingInView: View {
     var body: some View {
-        ZStack{
-            Image("sign_in_top")
-                .resizable()
-                .scaledToFill()
-                .ignoresSafeArea()
-        }
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
