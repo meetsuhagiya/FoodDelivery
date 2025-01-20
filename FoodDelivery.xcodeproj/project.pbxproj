@@ -27,6 +27,8 @@
 		3F1AFF4A2D3E5466000AC8E9 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF412D3E5466000AC8E9 /* Country.swift */; };
 		3F1AFF4B2D3E5466000AC8E9 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF422D3E5466000AC8E9 /* ServiceCall.swift */; };
 		3F1AFF502D3E6382000AC8E9 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3F1AFF4F2D3E6382000AC8E9 /* iPhoneNumberField */; };
+		3F1AFF902D3E8622000AC8E9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */; };
+		3F1AFF922D3E8967000AC8E9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF912D3E8967000AC8E9 /* MainViewModel.swift */; };
 		3F95566D2D2FD9C100CC4B63 /* SingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95566C2D2FD9C100CC4B63 /* SingInView.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		3F1AFF402D3E5466000AC8E9 /* LineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
 		3F1AFF412D3E5466000AC8E9 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		3F1AFF422D3E5466000AC8E9 /* ServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
+		3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3F1AFF912D3E8967000AC8E9 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		3F95566C2D2FD9C100CC4B63 /* SingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +133,7 @@
 				3F0B61E92D2EAF7200D96CFE /* Font */,
 				3F0B61DC2D2E934400D96CFE /* UICommon */,
 				3F0B61B02D2E8D3E00D96CFE /* FoodDeliveryApp.swift */,
+				3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */,
 				3F0B61B22D2E8D3E00D96CFE /* ContentView.swift */,
 				3F95566C2D2FD9C100CC4B63 /* SingInView.swift */,
 				3F0B61B42D2E8D4000D96CFE /* Assets.xcassets */,
@@ -169,6 +174,7 @@
 				3F1AFF412D3E5466000AC8E9 /* Country.swift */,
 				3F1AFF3A2D3E5465000AC8E9 /* CountryPickerView.swift */,
 				3F1AFF3B2D3E5465000AC8E9 /* Globs.swift */,
+				3F1AFF912D3E8967000AC8E9 /* MainViewModel.swift */,
 				3F1AFF402D3E5466000AC8E9 /* LineTextField.swift */,
 				3F1AFF3C2D3E5465000AC8E9 /* ProductCell.swift */,
 				3F1AFF3E2D3E5465000AC8E9 /* SearchTextField.swift */,
@@ -328,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1AFF4A2D3E5466000AC8E9 /* Country.swift in Sources */,
+				3F1AFF902D3E8622000AC8E9 /* SignUpView.swift in Sources */,
 				3F1AFF432D3E5466000AC8E9 /* CountryPickerView.swift in Sources */,
 				3F1AFF472D3E5466000AC8E9 /* SearchTextField.swift in Sources */,
 				3F0B61B32D2E8D3E00D96CFE /* ContentView.swift in Sources */,
@@ -341,6 +348,7 @@
 				3F1AFF4B2D3E5466000AC8E9 /* ServiceCall.swift in Sources */,
 				3F0B61B12D2E8D3E00D96CFE /* FoodDeliveryApp.swift in Sources */,
 				3F1AFF392D3E5456000AC8E9 /* CategoryCell.swift in Sources */,
+				3F1AFF922D3E8967000AC8E9 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,10 +515,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodDelivery/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -537,10 +546,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodDelivery/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

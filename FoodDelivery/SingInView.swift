@@ -76,9 +76,9 @@ struct SingInView: View {
                             .font(.customfont(.semibold, fontSize: 18))
                             .foregroundColor(.white)
                             .multilineTextAlignment(.center)
-                            .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
+                            .frame( minWidth: 0, maxWidth: .infinity, minHeight: 45, maxHeight: 45 )
                             .background(Color(hex: "5383EC"))
-                            .cornerRadius(20)
+                            .cornerRadius(10)
                     }
                     
                     .padding(.horizontal, 20)
@@ -92,9 +92,9 @@ struct SingInView: View {
                             .font(.customfont(.semibold, fontSize: 18))
                             .foregroundColor(.white)
                             .multilineTextAlignment(.center)
-                            .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
+                            .frame( minWidth: 0, maxWidth: .infinity, minHeight: 45, maxHeight: 45 )
                             .background(Color.primaryApp)
-                            .cornerRadius(20)
+                            .cornerRadius(10)
                     }
                     
                     .padding(.horizontal, 20)
@@ -120,12 +120,12 @@ struct SingInView: View {
                                 .scaledToFit()
                                 .frame(width: 40, height: 40)
                                 .padding(.trailing,5)
-                            Image("facebook")
+                            Image("317727_facebook_social media_social_icon")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 40, height: 40)
                                 .padding(.trailing,5)
-                            Image("apple_logo")
+                            Image("104490_apple_icon")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 42, height: 42)
@@ -138,7 +138,7 @@ struct SingInView: View {
             VStack{
                 HStack{
                     NavigationLink{
-                        //WelcomeView()
+                        WelcomeView()
                     } label: {
                         Image("back")
                             .resizable()
