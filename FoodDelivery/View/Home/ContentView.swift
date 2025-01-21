@@ -33,13 +33,15 @@ struct WelcomeView: View {
                     .multilineTextAlignment(.center)
                     .padding(.bottom,30)
                 
-                NavigationLink{
-                    SingInView()
-                    
-                } label: {
-                    RoundButton(title : "Get Started"){
-                    }
-                }
+                NavigationLink(destination: SingInView()) {
+                    Text("Get Started")
+                        .font(.customfont(.semibold, fontSize: 18))
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
+                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60)
+                        .background(Color.primaryApp)
+                        .cornerRadius(20)
+                                   }
                 Spacer()
                     .frame(height: 80)
             }
@@ -55,7 +57,7 @@ struct WelcomeView: View {
 }
 
 #Preview {
-    NavigationView{
+    NavigationStack{
         WelcomeView()
     }
 }

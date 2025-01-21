@@ -14,7 +14,6 @@
 		3F0B61C22D2E8D4000D96CFE /* FoodDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B61C12D2E8D4000D96CFE /* FoodDeliveryTests.swift */; };
 		3F0B61CC2D2E8D4000D96CFE /* FoodDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B61CB2D2E8D4000D96CFE /* FoodDeliveryUITests.swift */; };
 		3F0B61CE2D2E8D4000D96CFE /* FoodDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B61CD2D2E8D4000D96CFE /* FoodDeliveryUITestsLaunchTests.swift */; };
-		3F0B61E02D2E9C0100D96CFE /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B61DF2D2E9C0100D96CFE /* RoundButton.swift */; };
 		3F0B61E22D2EA89100D96CFE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B61E12D2EA89100D96CFE /* Launch Screen.storyboard */; };
 		3F1AFF392D3E5456000AC8E9 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF382D3E5455000AC8E9 /* CategoryCell.swift */; };
 		3F1AFF432D3E5466000AC8E9 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF3A2D3E5465000AC8E9 /* CountryPickerView.swift */; };
@@ -28,7 +27,10 @@
 		3F1AFF4B2D3E5466000AC8E9 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF422D3E5466000AC8E9 /* ServiceCall.swift */; };
 		3F1AFF502D3E6382000AC8E9 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3F1AFF4F2D3E6382000AC8E9 /* iPhoneNumberField */; };
 		3F1AFF902D3E8622000AC8E9 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */; };
-		3F1AFF922D3E8967000AC8E9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AFF912D3E8967000AC8E9 /* MainViewModel.swift */; };
+		3F1ED8112D3FB38500E79446 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ED8102D3FB38500E79446 /* MainViewModel.swift */; };
+		3F1ED8142D3FD7A400E79446 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ED8132D3FD7A400E79446 /* LoginView.swift */; };
+		3F1ED8172D3FDCD300E79446 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ED8162D3FDCD300E79446 /* UserModel.swift */; };
+		3F1ED81A2D3FDD1700E79446 /* UiKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1ED8192D3FDD1700E79446 /* UiKitExtension.swift */; };
 		3F95566D2D2FD9C100CC4B63 /* SingInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95566C2D2FD9C100CC4B63 /* SingInView.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +62,6 @@
 		3F0B61C72D2E8D4000D96CFE /* FoodDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0B61CB2D2E8D4000D96CFE /* FoodDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryUITests.swift; sourceTree = "<group>"; };
 		3F0B61CD2D2E8D4000D96CFE /* FoodDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3F0B61DF2D2E9C0100D96CFE /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		3F0B61E12D2EA89100D96CFE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3F0B61EA2D2EAFAD00D96CFE /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 		3F0B61EB2D2EAFB200D96CFE /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
@@ -76,7 +77,10 @@
 		3F1AFF412D3E5466000AC8E9 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		3F1AFF422D3E5466000AC8E9 /* ServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
 		3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		3F1AFF912D3E8967000AC8E9 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3F1ED8102D3FB38500E79446 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = "../../../../../Downloads/FoodDelivery-main 7/FoodDelivery/ViewModel/MainViewModel.swift"; sourceTree = "<group>"; };
+		3F1ED8132D3FD7A400E79446 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3F1ED8162D3FDCD300E79446 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3F1ED8192D3FDD1700E79446 /* UiKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiKitExtension.swift; sourceTree = "<group>"; };
 		3F95566C2D2FD9C100CC4B63 /* SingInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,12 +134,11 @@
 		3F0B61AF2D2E8D3E00D96CFE /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				3F1ED81B2D3FDD3400E79446 /* View */,
+				3F1ED8182D3FDD0900E79446 /* Common */,
+				3F1ED8152D3FDCBC00E79446 /* Model */,
 				3F0B61E92D2EAF7200D96CFE /* Font */,
 				3F0B61DC2D2E934400D96CFE /* UICommon */,
-				3F0B61B02D2E8D3E00D96CFE /* FoodDeliveryApp.swift */,
-				3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */,
-				3F0B61B22D2E8D3E00D96CFE /* ContentView.swift */,
-				3F95566C2D2FD9C100CC4B63 /* SingInView.swift */,
 				3F0B61B42D2E8D4000D96CFE /* Assets.xcassets */,
 				3F0B61B62D2E8D4000D96CFE /* Preview Content */,
 			);
@@ -170,11 +173,10 @@
 		3F0B61DC2D2E934400D96CFE /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
-				3F0B61DF2D2E9C0100D96CFE /* RoundButton.swift */,
+				3F1ED8102D3FB38500E79446 /* MainViewModel.swift */,
 				3F1AFF412D3E5466000AC8E9 /* Country.swift */,
 				3F1AFF3A2D3E5465000AC8E9 /* CountryPickerView.swift */,
 				3F1AFF3B2D3E5465000AC8E9 /* Globs.swift */,
-				3F1AFF912D3E8967000AC8E9 /* MainViewModel.swift */,
 				3F1AFF402D3E5466000AC8E9 /* LineTextField.swift */,
 				3F1AFF3C2D3E5465000AC8E9 /* ProductCell.swift */,
 				3F1AFF3E2D3E5465000AC8E9 /* SearchTextField.swift */,
@@ -194,6 +196,42 @@
 				3F0B61EC2D2EAFB600D96CFE /* Gilroy-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		3F1ED8122D3FD74300E79446 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3F95566C2D2FD9C100CC4B63 /* SingInView.swift */,
+				3F1ED8132D3FD7A400E79446 /* LoginView.swift */,
+				3F0B61B22D2E8D3E00D96CFE /* ContentView.swift */,
+				3F1AFF8F2D3E8622000AC8E9 /* SignUpView.swift */,
+				3F0B61B02D2E8D3E00D96CFE /* FoodDeliveryApp.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3F1ED8152D3FDCBC00E79446 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ED8162D3FDCD300E79446 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1ED8182D3FDD0900E79446 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ED8192D3FDD1700E79446 /* UiKitExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3F1ED81B2D3FDD3400E79446 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F1ED8122D3FD74300E79446 /* Home */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,17 +376,19 @@
 				3F1AFF432D3E5466000AC8E9 /* CountryPickerView.swift in Sources */,
 				3F1AFF472D3E5466000AC8E9 /* SearchTextField.swift in Sources */,
 				3F0B61B32D2E8D3E00D96CFE /* ContentView.swift in Sources */,
-				3F0B61E02D2E9C0100D96CFE /* RoundButton.swift in Sources */,
+				3F1ED8112D3FB38500E79446 /* MainViewModel.swift in Sources */,
+				3F1ED81A2D3FDD1700E79446 /* UiKitExtension.swift in Sources */,
 				3F1AFF492D3E5466000AC8E9 /* LineTextField.swift in Sources */,
 				3F95566D2D2FD9C100CC4B63 /* SingInView.swift in Sources */,
+				3F1ED8172D3FDCD300E79446 /* UserModel.swift in Sources */,
 				3F1AFF442D3E5466000AC8E9 /* Globs.swift in Sources */,
 				3F1AFF482D3E5466000AC8E9 /* UIExtension.swift in Sources */,
 				3F1AFF462D3E5466000AC8E9 /* SectionTitleAll.swift in Sources */,
 				3F1AFF452D3E5466000AC8E9 /* ProductCell.swift in Sources */,
 				3F1AFF4B2D3E5466000AC8E9 /* ServiceCall.swift in Sources */,
 				3F0B61B12D2E8D3E00D96CFE /* FoodDeliveryApp.swift in Sources */,
+				3F1ED8142D3FD7A400E79446 /* LoginView.swift in Sources */,
 				3F1AFF392D3E5456000AC8E9 /* CategoryCell.swift in Sources */,
-				3F1AFF922D3E8967000AC8E9 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
