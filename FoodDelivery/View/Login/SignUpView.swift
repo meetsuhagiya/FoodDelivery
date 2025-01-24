@@ -96,7 +96,7 @@ struct SignUpView: View {
                             
                             
                             NavigationLink {
-                                //                                     LoginView()
+                                LoginView()
                             } label: {
                                 Text("Sign In")
                                     .font(.customfont(.semibold, fontSize: 16))

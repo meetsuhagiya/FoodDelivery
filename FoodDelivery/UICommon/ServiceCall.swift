@@ -1,3 +1,4 @@
+
 import SwiftUI
 import UIKit
 
@@ -30,9 +31,9 @@ class ServiceCall {
             if(isToken) {
                 
 //                #if DEBUG
-//                request.addValue( "HFYsmcPickQlPmWMNUEZ" , forHTTPHeaderField: "access_token")
+//                request.addValue( "CTqjtI13WfENjJzttP3J" , forHTTPHeaderField: "access_token")
 //                #else
-//                request.addValue( MainViewModel.shared.userObj.authToken , forHTTPHeaderField: "access_token")
+                request.addValue( MainViewModel.shared.userObj.authToken , forHTTPHeaderField: "access_token")
 //                #endif
                 
                                
